@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>ePortfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="shortcut icon" href="images/sat.png">
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="block04.html" class="image avatar"><img src ="images/back.png" alt="back"/></a>
+					<div class="image avatar"><img src ="images/avatar.JPG" alt="Kiarash"/></div>
+					<h1><strong>KIARASH POOLADSAZ</strong><br />
+					<a href="https://master-cde.eu/">Copernicus Master in Digital Earth</a><br />
+					Paris Lodron University of Salzburg<br>
+					Palacky University Olomouc</br></h1>
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section id="one">
+						<header class="major">
+							<h1>Applying IDW interpolation and explore the modifications based on the measured temperature from the weather stations in Italy, 2006.</h1>
+							<h2>IDW Interpolation</h2>
+						</header>
+						<i>You can access the storymap <a href="https://arcg.is/19u5zz" target="_blank">HERE</a>.</i>
+
+						<p><br>IDW interpolation, which stands for Inverse Distance Weighting interpolation, is a widely used method in geostatistics for estimating values at unmeasured locations based on the values observed at nearby locations. It is particularly useful in various applications, including weather forecasting. The exercise was made to apply IDW interpolation based on the measure temperature from the weather stations in Italy, 2006.<br>The basic idea behind IDW interpolation is that the value at an unmeasured location is estimated by assigning weights to the measured values at nearby locations, with the weights inversely proportional to their distances from the target location. In other words, closer measured locations have a greater influence on the estimation compared to farther locations.<br>
+						</br></p>
+						<img class="image fit thumb" src="maps/interpolation18.png" alt="idw"/>
+						<i>IDW interpolation with Power factor 2 and based on 18 weather stations</i>
+						<p><br>In addition, the output could be influenced by Power factor.The weight attributed to each known observation is controlled by a power parameter, often referred to as p. In fact, if p is small, neighboring and distant observations exercise a strong influence on unsampled locations. As a consequence, the prediction might be heavily smoothed because it does not solely consider local processes. On the other hand, if p is set too high, only the very local phenomena will be accounted for and the interpolated map might present a jagged appearance. The map below shows the influence of higher P values on the interpolation result.</br></p>
+						<img class="image fit thumb" src="maps/interpolation18p4.png" alt="idw"/>
+						<i>IDW interpolation with Power factor 4 and based on 18 weather stations</i>
+						<p><br>It's worth noting that while IDW interpolation is a simple and widely used method, it has certain limitations. It assumes that the measured values have a spatial correlation, which may not always be the case. Additionally, IDW interpolation does not consider other factors that may affect the spatial variability of weather variables, such as topography or land cover. Therefore, more advanced interpolation techniques, such as kriging or Gaussian processes, are often employed in conjunction with IDW to improve the accuracy of weather forecasts.</br></p>
+							
+						
+							
+					</section>
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<p></br></br></br></p>
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/kiarash-pooladsaz/" class="icon brands fa-linkedin" target="_blank"><span class="label">Linked-in</span></a></li>
+						<li><a href="https://github.com/kiapooladsaz/" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="mailto: kiarashpooladsaz@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<div class="support">
+						<a href="https://www.master-cde.eu/" target="_blank" class="logo"><img src="images/logos.png" alt="logos" />
+							<a href="https://www.master-cde.eu/" target="_blank" class="logo"><img src="images/logos 2.png" alt="logos" />
+					</div>
+					<div class="copyright">
+						<p>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></p>
+					</div>
+					
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

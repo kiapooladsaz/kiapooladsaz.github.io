@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>ePortfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="shortcut icon" href="images/sat.png">
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="index.html" class="image avatar"><img src ="images/back.png" alt="back"/></a>
+					<div class="image avatar"><img src ="images/avatar.JPG" alt="Kiarash"/></div>
+					<h1><strong>KIARASH POOLADSAZ</strong><br />
+					<a href="https://master-cde.eu/">Copernicus Master in Digital Earth</a><br />
+					Paris Lodron University of Salzburg<br>
+					Palacky University Olomouc</br></h1>
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section id="one">
+						<header class="major">
+							<h1>Identifying and upscaling vegetation endmembers from UAV imagery to estimate vegetation diversity at larger scale applications in Software Development course.</h1>
+							<h2>Linear Spectral Mixture Analysis (LSMA)</h2>
+						</header>
+						<i>You can access the Github repository <a href="https://github.com/kiapooladsaz/SoftwareDev_Final" target="_blank">HERE</a>.</i>	
+						<p><br>Linear Spectral Mixture Analysis (LSMA) is a popular technique in remote sensing that aims to decompose mixed pixel spectra into their constituent endmembers. It involves automatically extracting the endmembers and estimating both their abundance fractions and spectral signatures simultaneously. LSMA assumes a linear mixture model and solves an optimization problem to find the best fit between the observed spectra and the linear combination of endmember spectra weighted by their abundance fractions. The outputs of LSMA include abundance maps and the estimated endmember spectra, providing valuable information about the spatial distribution and composition of materials in the scene.</br></p>
+						<iframe src="lsma.html" width="800" height="600"></iframe>
+						<p><br>Using Jupyter Notebook, series of steps were taken, as follow:</br>
+						- Import necessary libraries required for data manipulation, image processing, visualization, and spectral unmixing;</br>
+						- UAV image preprocessing: loading the image as 3D NumPy array, checking the presence of no data values in the image, creating mask of locations where the image has no data values, normilising the image values between 0 and 1, calculating the Normalized Difference Vegetation Index (NDVI) and applies a threshold to create a mask for vegetation areas, performing dimensionality reduction using the Minimum Noise Fraction (MNF) transformation on the masked and normalized image;<br>
+						- Endmember extraction: extracting the endmembers, which represent the pure spectral signatures of different vegetation types, using the Pixel Purity Index (FIPPI) algorithm to extract potential endmembers from the MNF-transformed image, and converting them to geographic coordinates;</br>
+						- Endmember selection with Graham's scan: This section further refines the selection of endmembers using Graham's Scan algorithm and a convex hull. It loads potential endmembers that were previously selected in QGIS. It flattens the endmember dictionary into a list of coordinates. It retrieves the MNF spectra for each potential endmember. It applies Graham's Scan algorithm to find the endmembers within the convex hull. The resulting endmembers are plotted in the feature space;<br>
+						- Applying the LSMA to the Sentinel-2 image: the LSMA algorithm is applied to a Sentinel-2 image to map the abundance of the selected endmembers in the image.</br></p>
+							
+					</section>
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<p></br></br></br></p>
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/kiarash-pooladsaz/" class="icon brands fa-linkedin" target="_blank"><span class="label">Linked-in</span></a></li>
+						<li><a href="https://github.com/kiapooladsaz/" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="mailto: kiarashpooladsaz@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<div class="support">
+						<a href="https://www.master-cde.eu/" target="_blank" class="logo"><img src="images/logos.png" alt="logos" />
+							<a href="https://www.master-cde.eu/" target="_blank" class="logo"><img src="images/logos 2.png" alt="logos" />
+					</div>
+					<div class="copyright">
+						<p>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></p>
+					</div>
+					
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

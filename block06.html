@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>ePortfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="shortcut icon" href="images/sat.png">
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="block04.html" class="image avatar"><img src ="images/back.png" alt="back"/></a>
+					<div class="image avatar"><img src ="images/avatar.JPG" alt="Kiarash"/></div>
+					<h1><strong>KIARASH POOLADSAZ</strong><br />
+					<a href="https://master-cde.eu/">Copernicus Master in Digital Earth</a><br />
+					Paris Lodron University of Salzburg<br>
+					Palacky University Olomouc</br></h1>
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section id="one">
+						<header class="major">
+							<h1>Exploring the water surface run-off volume estimation based on topographic features along Rauriser Ache river, Salzburg region.</h1>
+							<h2>Surface Runoff</h2>
+						</header>
+						<i>You can access the storymap <a href="https://arcg.is/0HfvSv0" target="_blank">HERE</a>.</i>
+
+						<p><br>Surface runoff refers to the movement of water over the surface of the Earth, typically occurring when precipitation exceeds the soil's ability to absorb it. It is a significant component of the water cycle and plays a crucial role in the hydrological processes of watersheds. Using Model Builder in ArcGIS Pro, we defined analysis procedure to cover the topic related to hydrological modeling.<br>
+						</br></p>
+						<img class="image fit thumb" src="images/hydromodel.png" alt="hydro"/>
+						<p>When it rains or snows, the water can follow different pathways. Some of it infiltrates into the ground, replenishing soil moisture and groundwater. However, if the soil becomes saturated or impermeable surfaces like pavement are present, water cannot infiltrate effectively, leading to surface runoff. Surface runoff occurs as the excess water flows over the land surface, following the path of least resistance. It forms streams, rivers, and eventually reaches larger bodies of water such as lakes, reservoirs, or the ocean. Along its journey, surface runoff collects and transports various materials, including sediments, nutrients, pollutants, and debris.</p>
+						<img class="image fit thumb" src="maps/flowdirection.png" alt="idw"/>
+						<i>Createing a raster of flow direction from each cell to its downslope neighbor, or neighbors, using the D8 method.</i>
+						<p><br>Flow direction analysis provides valuable insights into the movement of water across a terrain, enabling a better understanding of hydrological processes and aiding in decision-making for water-related projects and natural resource management.<br>
+							Flow accumulation is useful for various applications, such as identifying stream networks, delineating watersheds, locating drainage paths, and assessing the potential for flooding. It helps in understanding the flow patterns and the areas with the greatest water accumulation in the landscape.</br></p>
+						<img class="image fit thumb" src="maps/flowaccumulation.png" alt="idw"/>
+						<i>Creating a raster of accumulated flow to each cell, as determined by accumulating the weight for all cells that flow into each downslope cell.</i>
+
+							
+					</section>
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<p></br></br></br></p>
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/kiarash-pooladsaz/" class="icon brands fa-linkedin" target="_blank"><span class="label">Linked-in</span></a></li>
+						<li><a href="https://github.com/kiapooladsaz/" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="mailto: kiarashpooladsaz@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<div class="support">
+						<a href="https://www.master-cde.eu/" target="_blank" class="logo"><img src="images/logos.png" alt="logos" />
+							<a href="https://www.master-cde.eu/" target="_blank" class="logo"><img src="images/logos 2.png" alt="logos" />
+					</div>
+					<div class="copyright">
+						<p>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></p>
+					</div>
+					
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

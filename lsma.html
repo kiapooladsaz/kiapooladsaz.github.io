@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>5d5137c4e7a04fdcafe8f777a85232bb</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="74bb2fbc-91a3-4518-91ad-89c7551eb65d" class="cell markdown">
+<h1
+id="identifying-different-vegetation-types-in-uav-data--sentinel-2-by-using-linear-spectral-unmixing">Identifying
+different vegetation types in UAV data &amp; Sentinel 2 by using Linear
+Spectral Unmixing</h1>
+</div>
+<div id="cb6b2380-dd89-4036-bcd9-21b4e44454c9" class="cell markdown">
+<p>This project aims to identify different vegetation types using the
+concept of Linear Spectral Unmixing. We use a UAV orthoimage of a study
+area in the Peruvian Amazon forest. The image was clipped for testing
+purposes and contains only a part of the existing biodiversity.</p>
+<p>The entire project is based on the assumption that, for example,
+Sentinel-2 imagery with a spatial resolution of 10 m cannot capture all
+biodiversity because we will always have the problem of mixed pixels,
+i.e., each pixel is not "pure" but consists of different "pure"
+materials.</p>
+<p>Therefore, an attempt was made here to identify different vegetation
+types in the UAV data that we assume to be "pure" material. This
+information is then applied to the Sentinel-2 image to determine how
+much of these different vegetation types can be found in a sentinel
+pixel.</p>
+</div>
+<div id="a93c6b07-c0f3-46f2-92f9-ccdc2a6f6575" class="cell code"
+data-execution_count="1">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> unmixing.utils <span class="im">import</span> as_array</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> unmixing.utils <span class="im">import</span> pixel_to_xy</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> unmixing.lsma <span class="im">import</span> ravel_and_filter</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> unmixing.transform <span class="im">import</span> mnf_rotation</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> unmixing.utils <span class="im">import</span> array_to_raster, dump_raster</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> unmixing.visualize <span class="im">import</span> FeatureSpace</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> unmixing.transform <span class="im">import</span> mnf_rotation</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> unmixing.lsma <span class="im">import</span> convex_hull_graham</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> unmixing.utils <span class="im">import</span> spectra_at_xy</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> unmixing.lsma <span class="im">import</span> FCLSAbundanceMapper</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> unmixing.lsma <span class="im">import</span> endmembers_by_maximum_volume</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> json</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pysptools.eea <span class="im">as</span> sp_extract</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pysptools.util <span class="im">as</span> sp_utils</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> matplotlib <span class="im">import</span> pyplot <span class="im">as</span> plt, cm</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>matplotlib inline</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> osgeo <span class="im">import</span> gdal</span></code></pre></div>
+</div>
+<div id="a46f5e75-f89e-4632-ab41-f79aab8ea815" class="cell markdown">
+<h2 id="image-preprocessing">Image preprocessing</h2>
+</div>
+<div id="582fe4a2-fd7b-41f0-9b91-17ab81070bd5" class="cell markdown">
+<p>In the first steps, we explore the data and get rid of all other
+surface types that are not vegetation and perform a noise and
+dimensionality reduction.</p>
+</div>
+<div id="fdd4eaf1-fe51-4622-aac8-02252b6c1d00" class="cell code"
+data-execution_count="2">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># load UAV image as 3D NumPy array</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>image, gt, wkt <span class="op">=</span> as_array(<span class="st">&#39;C:/Users/Henrike/Downloads/unmixing-master/unmixing-master/data/test.tif&#39;</span>)</span></code></pre></div>
+</div>
+<div id="3cd1b083-c097-44b3-b5ca-56770bdfcb92" class="cell markdown">
+<p>GT returns the corner coordinates, pixel size, etc. of the raster</p>
+</div>
+<div id="a2a62e8c-4eee-4685-b97a-ba51bb2e2340" class="cell code"
+data-execution_count="3">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>gt</span></code></pre></div>
+<div class="output execute_result" data-execution_count="3">
+<pre><code>(684544.7354229867,
+ 0.07000869820171894,
+ 0.0,
+ 9572983.114587901,
+ 0.0,
+ -0.07000870104953134)</code></pre>
+</div>
+</div>
+<div id="2a9cbab9-122d-46eb-9935-11e92ff78e8a" class="cell markdown">
+<p>WKT is the Well-Known Text string describing the projection of the
+raster.</p>
+</div>
+<div id="3bcea304-0cc2-4271-820b-ac8f26470b37" class="cell code"
+data-execution_count="4">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>wkt</span></code></pre></div>
+<div class="output execute_result" data-execution_count="4">
+<pre><code>&#39;PROJCS[&quot;WGS 84 / UTM zone 18S&quot;,GEOGCS[&quot;WGS 84&quot;,DATUM[&quot;WGS_1984&quot;,SPHEROID[&quot;WGS 84&quot;,6378137,298.257223563,AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]],AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]],PRIMEM[&quot;Greenwich&quot;,0,AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]],UNIT[&quot;degree&quot;,0.0174532925199433,AUTHORITY[&quot;EPSG&quot;,&quot;9122&quot;]],AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]],PROJECTION[&quot;Transverse_Mercator&quot;],PARAMETER[&quot;latitude_of_origin&quot;,0],PARAMETER[&quot;central_meridian&quot;,-75],PARAMETER[&quot;scale_factor&quot;,0.9996],PARAMETER[&quot;false_easting&quot;,500000],PARAMETER[&quot;false_northing&quot;,10000000],UNIT[&quot;metre&quot;,1,AUTHORITY[&quot;EPSG&quot;,&quot;9001&quot;]],AXIS[&quot;Easting&quot;,EAST],AXIS[&quot;Northing&quot;,NORTH],AUTHORITY[&quot;EPSG&quot;,&quot;32718&quot;]]&#39;</code></pre>
+</div>
+</div>
+<div id="25e99a28-d60e-43df-b762-f676b0c99873" class="cell code"
+data-execution_count="4">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Check the no data value of the image</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="co"># file = &#39;C:/Users/Henrike/Downloads/unmixing-master/unmixing-master/data/test.tif&#39;</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="co"># test0 = gdal.Open(file)</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="co"># band = test0.GetRasterBand(1)</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="co"># band.GetNoDataValue()</span></span></code></pre></div>
+<div class="output execute_result" data-execution_count="4">
+<pre><code>0.0</code></pre>
+</div>
+</div>
+<div id="9dbbbb4a-2389-4ece-93ac-a0fbb0576b9c" class="cell code"
+data-execution_count="100">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create new array that contains boolean of locations where image has no data values</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>img_na <span class="op">=</span> np.<span class="bu">any</span>(image <span class="op">==</span> <span class="fl">0.0</span>, axis <span class="op">=</span> <span class="dv">0</span>)</span></code></pre></div>
+</div>
+<div id="f52af0e4-aa85-46f4-98d4-2dd047c1389b" class="cell code">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>img_na.shape</span></code></pre></div>
+<div class="output execute_result" data-execution_count="104">
+<pre><code>(3689, 6414)</code></pre>
+</div>
+</div>
+<div id="6a3f6c8a-f090-494e-a59c-dc05ded567b6" class="cell code"
+data-execution_count="101">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># copy image to new array and set all zeros to 9999, because otherwise NDVI cannot be calculated</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>arrImg <span class="op">=</span> np.copy(image)</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>arrImg[:, img_na <span class="op">==</span> <span class="va">True</span>] <span class="op">=</span> <span class="dv">9999</span></span></code></pre></div>
+</div>
+<div id="655a0aa5-2c13-4571-9b83-739791e97aed" class="cell markdown">
+<p>Here we use 9999 becasue otherwise the normalization would throw an
+error.</p>
+</div>
+<div id="16b6e18c-a220-4afc-9fb2-85cde0334b24" class="cell code"
+data-execution_count="19">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert array to gdal.Dataset (raster), dump to file</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="co">#dump_raster(array_to_raster(arrImg, gt, wkt), &#39;C:/Users/Henrike/SoftwareDev_Final/test_NoData_v3.tiff&#39;, nodata = np.NaN)</span></span></code></pre></div>
+</div>
+<div id="fe477455-1f35-49d7-835a-75da4738e6b0" class="cell code"
+data-execution_count="5">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co"># create function to normalize image values between 0 and 1</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> NormalizeData(data):</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> (data <span class="op">-</span> np.<span class="bu">min</span>(data)) <span class="op">/</span> (np.<span class="bu">max</span>(data) <span class="op">-</span> np.<span class="bu">min</span>(data))</span></code></pre></div>
+</div>
+<div id="165c51ff-a285-4c35-9f32-258e124cebc3" class="cell code"
+data-execution_count="6">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># apply function to image</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>scaled_image <span class="op">=</span> NormalizeData(arrImg)</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>scaled_image.shape</span></code></pre></div>
+<div class="output execute_result" data-execution_count="6">
+<pre><code>(5, 3689, 6414)</code></pre>
+</div>
+</div>
+<div id="10ef5fba-69cf-42c4-bb3c-002867311f3a" class="cell markdown">
+<p>In order to remove all other surface types that are not vegetation,
+we calculate the NDVI and set a threshold based on visual inspection in
+QGIS.</p>
+</div>
+<div id="b6025c59-2cab-4e65-81d6-91cdf777d285" class="cell code"
+data-execution_count="7">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate NDVI</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>red <span class="op">=</span> scaled_image[<span class="dv">2</span>]</span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>nir <span class="op">=</span> scaled_image[<span class="dv">4</span>]</span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>ndvi <span class="op">=</span> np.divide((nir <span class="op">-</span> red), (nir <span class="op">+</span> red))</span></code></pre></div>
+</div>
+<div id="29980be4-bfcc-4675-8907-ebe49d2f312f" class="cell code"
+data-execution_count="16">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co">#dump_raster(array_to_raster(ndvi, gt, wkt), &#39;C:/Users/Henrike/SoftwareDev_Final/NDVI.tiff&#39;, nodata = np.NaN)</span></span></code></pre></div>
+</div>
+<div id="60144869-8d62-4b58-9a4f-98364990dd72" class="cell code"
+data-execution_count="8">
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co"># plot NDVI</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>plt.imshow(np.squeeze(ndvi))   </span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>plt.colorbar()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="8">
+<pre><code>&lt;matplotlib.colorbar.Colorbar at 0x142c6c50850&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_c61535ac6a474893857b5ab9fac647f9/b0f0e91395cce80f1e7a802464f2e78d7858c02b.png" /></p>
+</div>
+</div>
+<div id="530db88a-3890-4efb-a166-510058e3df7c" class="cell code"
+data-execution_count="9">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create classes and apply to NDVI results</span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>ndvi_mask <span class="op">=</span> np.where(ndvi <span class="op">&gt;</span> <span class="fl">0.4</span>, ndvi, <span class="op">-</span><span class="dv">9999</span>) </span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>ndvi_mask.shape</span></code></pre></div>
+<div class="output execute_result" data-execution_count="9">
+<pre><code>(3689, 6414)</code></pre>
+</div>
+</div>
+<div id="cc98715b-6024-41dd-9037-f378d69b122a" class="cell code"
+data-execution_count="10">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Apply mask to scaled image</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>scaledImg_masked <span class="op">=</span> np.copy(scaled_image)</span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>scaledImg_masked[:, ndvi_mask <span class="op">==</span> <span class="op">-</span><span class="dv">9999</span>] <span class="op">=</span> <span class="op">-</span><span class="dv">9999</span></span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>scaledImg_masked.shape</span></code></pre></div>
+<div class="output execute_result" data-execution_count="10">
+<pre><code>(5, 3689, 6414)</code></pre>
+</div>
+</div>
+<div id="f386ca0e-19c3-4192-8617-886798695a6b" class="cell code"
+data-execution_count="32">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="co">#dump_raster(array_to_raster(scaledImg_masked, gt, wkt), &#39;C:/Users/Henrike/SoftwareDev_Final/test_NDVI_masked.tiff&#39;, nodata = np.NaN)</span></span></code></pre></div>
+</div>
+<div id="151f2606-8078-4942-81d4-bb96cd7f7cbd" class="cell markdown">
+<h2 id="dimensionality-reduction">Dimensionality Reduction</h2>
+</div>
+<div id="0133663f-7004-4f01-9279-8150c2efd813" class="cell markdown">
+<p>To reduce the noise and dimensionality of the UAV image, a minimum
+noise fraction (MNF) transformation is applied to the raster.</p>
+</div>
+<div id="1a2f7c76-3769-4924-80f6-7aee0ddfd16c" class="cell markdown">
+<p>For further information, refer to <a
+href="https://github.com/arthur-e/unmixing/blob/master/docs/Overview_LSMA_in_Python.ipynb"
+class="uri">https://github.com/arthur-e/unmixing/blob/master/docs/Overview_LSMA_in_Python.ipynb</a></p>
+</div>
+<div id="5bb744a9-7f86-43b3-b671-ee9e60bc75f9" class="cell code"
+data-execution_count="11">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>hsi_post_mnf <span class="op">=</span> mnf_rotation(scaledImg_masked)</span></code></pre></div>
+</div>
+<div id="56c144af-4f1c-4d7d-b337-e3fa16a1bfb0" class="cell code"
+data-execution_count="33">
+<div class="sourceCode" id="cb27"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>hsi_post_mnf.shape</span></code></pre></div>
+<div class="output execute_result" data-execution_count="33">
+<pre><code>(6414, 3689, 5)</code></pre>
+</div>
+</div>
+<div id="d5b9b306-2955-41f7-9b9d-cccf1d20ba6c" class="cell code"
+data-execution_count="34">
+<div class="sourceCode" id="cb29"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>hsi_post_mnf.T.shape</span></code></pre></div>
+<div class="output execute_result" data-execution_count="34">
+<pre><code>(5, 3689, 6414)</code></pre>
+</div>
+</div>
+<div id="94f2e420-3603-4cc2-bbc4-c374dad7fc8b" class="cell code"
+data-execution_count="68">
+<div class="sourceCode" id="cb31"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="co">#dump_raster(array_to_raster(hsi_post_mnf.T, gt, wkt), &#39;C:/Users/Henrike/Downloads/unmixing-master/unmixing-master/output/test_MNFRotation.tiff&#39;, nodata = -9999)</span></span></code></pre></div>
+</div>
+<div id="9e26eee3-3bcf-4eff-9ada-e51a75c9a4dc" class="cell markdown">
+<p>The plot shows that the first component explains almost all the
+variance. This can also be seen in the following plot.</p>
+</div>
+<div id="62786043-1362-40bd-a993-9eb63a8b3d13" class="cell code"
+data-execution_count="11">
+<div class="sourceCode" id="cb32"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>fig <span class="op">=</span> plt.figure(figsize <span class="op">=</span> (<span class="dv">16</span>, <span class="dv">16</span>))</span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>fig.subplots_adjust(wspace <span class="op">=</span> <span class="op">-</span><span class="fl">0.2</span>)</span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">1</span>, <span class="dv">5</span>):</span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a>    ax <span class="op">=</span> fig.add_subplot(<span class="dv">320</span> <span class="op">+</span> i, title <span class="op">=</span> <span class="st">&#39;MNF Component </span><span class="sc">%d</span><span class="st">&#39;</span> <span class="op">%</span> i)</span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a>    ax.imshow(hsi_post_mnf.T[i <span class="op">-</span> <span class="dv">1</span>,:,:], cmap <span class="op">=</span> cm.gray)</span>
+<span id="cb32-6"><a href="#cb32-6" aria-hidden="true" tabindex="-1"></a>    ax.get_xaxis().set_visible(<span class="va">False</span>)</span>
+<span id="cb32-7"><a href="#cb32-7" aria-hidden="true" tabindex="-1"></a>    ax.get_yaxis().set_visible(<span class="va">False</span>)</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_c61535ac6a474893857b5ab9fac647f9/fceb88569d6890694ca63f95d652ebbb2ce6ee03.png" /></p>
+</div>
+</div>
+<div id="153ecfe4-d33a-46fb-b4bf-ce8e90bfeafd" class="cell markdown">
+<h2 id="endmember-extraction">Endmember extraction</h2>
+</div>
+<div id="1f0077e2-715f-4880-94ac-13518ce47026" class="cell markdown">
+<p>Spectral unmixing is based on the assumption that each pixel can be
+represented as a (linear) combination of the "pure" material in an
+image, i.e. each pixel is a mixture of different "pure" signals.
+Usually, the endmembers are collected in the field, e.g., with an ASD
+field spectroradiometer, to determine the spectral reflectance of the
+pure material. However, this is costly and time-consuming, so attempts
+are made to obtain endmembers from the image itself. Due to the fact
+that the study area has a fairly diverse range of species, we attempt to
+identify endmembers from the UAV data because the resolution is much
+better.</p>
+<p>The Pixel Purity Index (PPI), for example, creates several random
+projections of the given feature space and then counts how many times
+each pixel appears in the corners (so in the extremes) across the
+respective projections.</p>
+</div>
+<div id="fd8b1e51-efb7-42d6-bce1-6818a9bd4223" class="cell markdown">
+<p>Instead of using the PPI, here we the Fast Iterative Puritz Index
+(FIPPI) is used. It has several advantages over the PPI, e.g. instead of
+using randomly generated vectors as initial endmembers, the FIPPI
+produces an intial set of endmembers to speed up the process and
+iteratively tries to find the optimal set of potential endmembers.</p>
+<p>Further information can be found here: <a
+href="https://ieeexplore.ieee.org/document/1576691">Chang, C.-I.
+(2006)</a>.</p>
+</div>
+<div id="58e619b9-9161-4f56-9b83-7fa8e27c9e0f" class="cell code"
+data-execution_count="12">
+<div class="sourceCode" id="cb33"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>fippi <span class="op">=</span> sp_extract.FIPPI()</span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a><span class="co"># find 3 potential endmembers and set maximum iteration to 5000</span></span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a>iter_members <span class="op">=</span> fippi.extract(hsi_post_mnf[...,<span class="dv">0</span>:<span class="dv">3</span>], <span class="dv">3</span>, maxit <span class="op">=</span> <span class="dv">5000</span>)</span></code></pre></div>
+</div>
+<div id="7c76872e-7607-4e68-af74-be6ce3894097" class="cell code"
+data-execution_count="13">
+<div class="sourceCode" id="cb34"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>fippi.get_idx()</span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Switch pixel coordinates from (p, m, n) to (n, m, p)</span></span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a>coords <span class="op">=</span> [(y, x) <span class="cf">for</span> x, y <span class="kw">in</span> fippi.get_idx()]</span>
+<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-6"><a href="#cb34-6" aria-hidden="true" tabindex="-1"></a>pixel_to_xy(coords, gt <span class="op">=</span> gt, wkt <span class="op">=</span> wkt, dd <span class="op">=</span> <span class="va">True</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="13">
+<pre><code>[(-3.861669012382913, -73.33802684504938),
+ (-3.862376720033442, -73.33701193223709),
+ (-3.863029163231802, -73.33654801527393),
+ (-3.8627835156699404, -73.33654471191169),
+ (-3.8630348016130243, -73.33651774948143),
+ (-3.863964042293433, -73.33515699294598),
+ (-3.8621155427946365, -73.3349053222192)]</code></pre>
+</div>
+</div>
+<div id="7f5353e0-6351-4925-b084-fb4569c01479" class="cell code"
+data-execution_count="14" data-tags="[]">
+<div class="sourceCode" id="cb36"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert array to gdal.Dataset (raster), dump to file</span></span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a>dump_raster(array_to_raster(scaledImg_masked, gt, wkt), <span class="st">&#39;C:/Users/Henrike/Downloads/unmixing-master/unmixing-master/output/test_arrayImage.tiff&#39;</span>, nodata <span class="op">=</span> <span class="op">-</span><span class="dv">9999</span>)</span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Set feature_limit = 10000 to minimize computational time</span></span>
+<span id="cb36-5"><a href="#cb36-5" aria-hidden="true" tabindex="-1"></a>vis_fs <span class="op">=</span> FeatureSpace(path <span class="op">=</span> <span class="st">&#39;C:/Users/Henrike/Downloads/unmixing-master/unmixing-master/output/test_arrayImage.tiff&#39;</span>, nodata <span class="op">=</span> <span class="op">-</span><span class="dv">9999</span>,</span>
+<span id="cb36-6"><a href="#cb36-6" aria-hidden="true" tabindex="-1"></a>                      feature_limit <span class="op">=</span> <span class="dv">10000</span>)</span>
+<span id="cb36-7"><a href="#cb36-7" aria-hidden="true" tabindex="-1"></a>vis_fs.plot_feature_space()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_c61535ac6a474893857b5ab9fac647f9/6f445a0b688773ae04ac91c8aa8ab95468cf4c65.png" /></p>
+</div>
+</div>
+<div id="8951c448-0744-476c-86fe-27a191135047" class="cell code"
+data-execution_count="15">
+<div class="sourceCode" id="cb37"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>matplotlib inline</span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>config InlineBackend.close_figures<span class="op">=</span><span class="va">False</span></span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>vis_fs.plot_feature_space()</span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Get MNF spectra from the HSI cube using the lat-lon coordinates</span></span>
+<span id="cb37-6"><a href="#cb37-6" aria-hidden="true" tabindex="-1"></a>lat_lon_coords <span class="op">=</span> pixel_to_xy(coords, gt <span class="op">=</span> gt, wkt <span class="op">=</span> wkt, dd <span class="op">=</span> <span class="va">True</span>)</span>
+<span id="cb37-7"><a href="#cb37-7" aria-hidden="true" tabindex="-1"></a>mnf_spectra <span class="op">=</span> spectra_at_xy(hsi_post_mnf.T, lat_lon_coords, gt, wkt, dd <span class="op">=</span> <span class="va">True</span>)</span>
+<span id="cb37-8"><a href="#cb37-8" aria-hidden="true" tabindex="-1"></a>vis_fs.plot_spectral_points(mnf_spectra)</span>
+<span id="cb37-9"><a href="#cb37-9" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_c61535ac6a474893857b5ab9fac647f9/6f445a0b688773ae04ac91c8aa8ab95468cf4c65.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_c61535ac6a474893857b5ab9fac647f9/437bd9ad420ca6a891a77480cd19d75d1f57403d.png" /></p>
+</div>
+</div>
+<div id="5a9fe1ab-6285-4d69-a4b2-7b4e1e5f2632" class="cell markdown">
+<h2 id="endmember-selection-with-grahams-scan">Endmember selection with
+Graham's Scan</h2>
+</div>
+<div id="bf2c64c9-fe33-4c0f-b47f-0dc7d8646f0a" class="cell markdown">
+<p>As you can see in the graphic above, the automatic endmember
+selection did not work perfectly. The only endmember that was selected
+well is the very dark pixel on the far left of the graph. This is not
+surprising, since we are only looking at vegetation surfaces, which is
+very similar in spectral behavior.</p>
+<p>Nevertheless, we want to try to further improve the selection of
+endmembers. To this end, a set of potential endmembers was collected in
+SNAP for very bright surfaces, with high values in MNF 1 and medium
+values in MNF 2 and bright surfaces with high MNF 2 and medium MNF 1
+values. The endmember selection is then improved with the Graham scan,
+using a convex hull to find the potential endmembers.</p>
+</div>
+<div id="6b6d3a85-e7dc-4899-9041-399e7fdd63ba" class="cell code"
+data-execution_count="54">
+<div class="sourceCode" id="cb38"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="co"># load potential endmembers that were selected in QGIS</span></span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">&#39;C:/Users/Henrike/Downloads/unmixing-master/unmixing-master/data/test_endember.json&#39;</span>, <span class="st">&#39;r&#39;</span>) <span class="im">as</span> stream:</span>
+<span id="cb38-3"><a href="#cb38-3" aria-hidden="true" tabindex="-1"></a>    veg_pifs <span class="op">=</span> json.load(stream)</span>
+<span id="cb38-4"><a href="#cb38-4" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb38-5"><a href="#cb38-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb38-6"><a href="#cb38-6" aria-hidden="true" tabindex="-1"></a>targets <span class="op">=</span> veg_pifs.copy()</span>
+<span id="cb38-7"><a href="#cb38-7" aria-hidden="true" tabindex="-1"></a>targets</span></code></pre></div>
+<div class="output execute_result" data-execution_count="54">
+<pre><code>{&#39;bright&#39;: [[684576.6244, 9572808.7579]],
+ &#39;very bright&#39;: [[684850.7084, 9572767.5228]]}</code></pre>
+</div>
+</div>
+<div id="bdd39d34-656b-4d22-967f-f6e5e54e50f1" class="cell code"
+data-execution_count="55">
+<div class="sourceCode" id="cb40"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Flatten the dictionary to a list</span></span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a>endmember_coords <span class="op">=</span> []</span>
+<span id="cb40-3"><a href="#cb40-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> target <span class="kw">in</span> targets.keys():</span>
+<span id="cb40-4"><a href="#cb40-4" aria-hidden="true" tabindex="-1"></a>    endmember_coords.extend(targets[target])</span>
+<span id="cb40-5"><a href="#cb40-5" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb40-6"><a href="#cb40-6" aria-hidden="true" tabindex="-1"></a><span class="co"># A known shade endmember derived from SNAP</span></span>
+<span id="cb40-7"><a href="#cb40-7" aria-hidden="true" tabindex="-1"></a>shade_em <span class="op">=</span> (<span class="fl">684595.0367</span>,<span class="fl">9572841.872</span>)</span>
+<span id="cb40-8"><a href="#cb40-8" aria-hidden="true" tabindex="-1"></a>endmember_coords.append(shade_em)</span>
+<span id="cb40-9"><a href="#cb40-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-10"><a href="#cb40-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Get the MNF spectra for each potential endmember</span></span>
+<span id="cb40-11"><a href="#cb40-11" aria-hidden="true" tabindex="-1"></a>endmember_spectra <span class="op">=</span> spectra_at_xy(hsi_post_mnf.T, endmember_coords, gt <span class="op">=</span> gt, wkt <span class="op">=</span> wkt)</span>
+<span id="cb40-12"><a href="#cb40-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-13"><a href="#cb40-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Find endmembers using Graham&#39;s scan</span></span>
+<span id="cb40-14"><a href="#cb40-14" aria-hidden="true" tabindex="-1"></a>idx, hull <span class="op">=</span> convex_hull_graham(endmember_spectra[...,<span class="dv">0</span>:<span class="dv">2</span>].tolist(), indices <span class="op">=</span> <span class="va">True</span>)</span></code></pre></div>
+</div>
+<div id="3c02ab92-2236-4598-bde1-a3a0c34f8640" class="cell code"
+data-execution_count="56">
+<div class="sourceCode" id="cb41"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a>plt.close()</span>
+<span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a>vis_fs.plot_feature_space()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_c61535ac6a474893857b5ab9fac647f9/6f445a0b688773ae04ac91c8aa8ab95468cf4c65.png" /></p>
+</div>
+</div>
+<div id="ae7502f4-eac4-4fe1-afdd-279f96f63e37" class="cell code"
+data-execution_count="57">
+<div class="sourceCode" id="cb42"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a>vis_fs.plot_spectral_points(hull, fmt <span class="op">=</span> <span class="st">&#39;go&#39;</span>)</span>
+<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_c61535ac6a474893857b5ab9fac647f9/00f8a844f821d673e252ae7ea11e323f0bae2b15.png" /></p>
+</div>
+</div>
+<div id="d188a0ca-da46-4415-868b-e352dafaa8d7" class="cell code"
+data-execution_count="59">
+<div class="sourceCode" id="cb43"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Get the coordinate pairs that appeared in the convex hull</span></span>
+<span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a>hull_coords <span class="op">=</span> [endmember_coords[i] <span class="cf">for</span> i <span class="kw">in</span> idx]</span>
+<span id="cb43-3"><a href="#cb43-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-4"><a href="#cb43-4" aria-hidden="true" tabindex="-1"></a><span class="co"># A follow-up search by maximum volume</span></span>
+<span id="cb43-5"><a href="#cb43-5" aria-hidden="true" tabindex="-1"></a>ems, em_coords <span class="op">=</span> endmembers_by_maximum_volume(hsi_post_mnf.T, hull_coords, </span>
+<span id="cb43-6"><a href="#cb43-6" aria-hidden="true" tabindex="-1"></a>                                              shade_em, gt <span class="op">=</span> gt, wkt <span class="op">=</span> wkt)</span>
+<span id="cb43-7"><a href="#cb43-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-8"><a href="#cb43-8" aria-hidden="true" tabindex="-1"></a>plt.close()</span>
+<span id="cb43-9"><a href="#cb43-9" aria-hidden="true" tabindex="-1"></a>vis_fs.plot_feature_space()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_c61535ac6a474893857b5ab9fac647f9/6f445a0b688773ae04ac91c8aa8ab95468cf4c65.png" /></p>
+</div>
+</div>
+<div id="6d74bf59-00de-4d63-963d-4a2b8b38a1da" class="cell code"
+data-execution_count="60">
+<div class="sourceCode" id="cb44"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a>vis_fs.plot_spectral_points(ems, fmt<span class="op">=</span><span class="st">&#39;r*&#39;</span>)</span>
+<span id="cb44-2"><a href="#cb44-2" aria-hidden="true" tabindex="-1"></a>vis_fs.plot_2d_mixing_space(ems)</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_c61535ac6a474893857b5ab9fac647f9/379ddfb8465eb129556fada9105983c4e49d8ac9.png" /></p>
+</div>
+</div>
+<div id="68749865-bbe4-4777-8b92-cbf58736329a" class="cell markdown">
+<h2 id="now-apply-the-lsma-to-the-sentinel-2-image">Now apply the LSMA
+to the Sentinel-2 image</h2>
+</div>
+<div id="e5b27219-cabc-468d-a205-bd40b8d28276" class="cell markdown">
+<p>A Sentinel-2 Level 2A image for the 03.08.2020 was acquired from the
+Open Access Hub with a cloud coverage less than 5%. The image was then
+preprocessed in SNAP. Preprocessing included cloud masking with the
+Sen2Cor algorithm, subsetting the bands to RGB, NIR, Red Edge 1-3, and
+SWIR 1 &amp; 2 bands, and resampling of all bands to 10 m.</p>
+</div>
+<div id="f1e5d7f0-e409-4c00-822b-7329a2c3d9ab" class="cell code"
+data-execution_count="157">
+<div class="sourceCode" id="cb45"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a><span class="co"># laod image</span></span>
+<span id="cb45-2"><a href="#cb45-2" aria-hidden="true" tabindex="-1"></a>s2, gt, wkt <span class="op">=</span> as_array(<span class="st">&#39;C:/Users/Henrike/Downloads/unmixing-master/unmixing-master/data/S2_20200803.tiff&#39;</span>)</span>
+<span id="cb45-3"><a href="#cb45-3" aria-hidden="true" tabindex="-1"></a>s2.shape</span></code></pre></div>
+<div class="output execute_result" data-execution_count="157">
+<pre><code>(7, 26, 45)</code></pre>
+</div>
+</div>
+<div id="af64a0ab-2ff3-44d6-a05b-d2db50d621bf" class="cell code"
+data-execution_count="164">
+<div class="sourceCode" id="cb47"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a><span class="co"># reduce noise and dimensionality</span></span>
+<span id="cb47-2"><a href="#cb47-2" aria-hidden="true" tabindex="-1"></a>mnf <span class="op">=</span> mnf_rotation(s2)</span>
+<span id="cb47-3"><a href="#cb47-3" aria-hidden="true" tabindex="-1"></a>fcls_mapper <span class="op">=</span> FCLSAbundanceMapper(s2, gt, wkt, processes <span class="op">=</span> <span class="dv">6</span>)</span></code></pre></div>
+</div>
+<div id="7d810c26-079e-4499-b397-810f71de11b1" class="cell code"
+data-execution_count="165">
+<div class="sourceCode" id="cb48"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a><span class="co"># apply fully contraint LSMA</span></span>
+<span id="cb48-2"><a href="#cb48-2" aria-hidden="true" tabindex="-1"></a>result <span class="op">=</span> fcls_mapper.map_abundance(ems)</span></code></pre></div>
+</div>
+<div id="906470fc-e96d-4b3b-a804-2c3998fafb26" class="cell code"
+data-execution_count="153">
+<div class="sourceCode" id="cb49"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a>result.shape</span></code></pre></div>
+<div class="output execute_result" data-execution_count="153">
+<pre><code>(758, 535, 3)</code></pre>
+</div>
+</div>
+<div id="b953526f-79dd-4cbe-a3af-ff408e879c6b" class="cell code"
+data-execution_count="166">
+<div class="sourceCode" id="cb51"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a>fig <span class="op">=</span> plt.figure(figsize <span class="op">=</span> (<span class="dv">14</span>, <span class="dv">14</span>))</span>
+<span id="cb51-2"><a href="#cb51-2" aria-hidden="true" tabindex="-1"></a>fig.subplots_adjust(hspace <span class="op">=</span> <span class="op">-</span><span class="fl">0.2</span>)</span>
+<span id="cb51-3"><a href="#cb51-3" aria-hidden="true" tabindex="-1"></a>endmember_labels <span class="op">=</span> [<span class="st">&#39;Dark Vegetation&#39;</span>, <span class="st">&#39;Bright&#39;</span>, <span class="st">&#39;Very brigth&#39;</span>]</span>
+<span id="cb51-4"><a href="#cb51-4" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>, <span class="dv">3</span>):</span>
+<span id="cb51-5"><a href="#cb51-5" aria-hidden="true" tabindex="-1"></a>    ax <span class="op">=</span> fig.add_subplot(<span class="dv">221</span> <span class="op">+</span> i, title <span class="op">=</span> <span class="st">&#39;Endmember Spectra - </span><span class="sc">%s</span><span class="st">&#39;</span> <span class="op">%</span> endmember_labels[i])</span>
+<span id="cb51-6"><a href="#cb51-6" aria-hidden="true" tabindex="-1"></a>    ax.imshow(result.T[i,...], cmap <span class="op">=</span> cm.gray)</span>
+<span id="cb51-7"><a href="#cb51-7" aria-hidden="true" tabindex="-1"></a>    ax.get_xaxis().set_visible(<span class="va">False</span>)</span>
+<span id="cb51-8"><a href="#cb51-8" aria-hidden="true" tabindex="-1"></a>    ax.get_yaxis().set_visible(<span class="va">False</span>)</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_c61535ac6a474893857b5ab9fac647f9/cd4362f5d008c9c73795ee4535f7235c8f86dcf4.png" /></p>
+</div>
+</div>
+<div id="0758aa0e-1e6e-48ab-8717-bb7753a6e02a" class="cell code"
+data-execution_count="155">
+<div class="sourceCode" id="cb52"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb52-1"><a href="#cb52-1" aria-hidden="true" tabindex="-1"></a><span class="co">#dump_raster(array_to_raster(result.T, gt, wkt), &#39;C:/Users/Henrike/Downloads/unmixing-master/unmixing-master/output/test_S2_result.tiff&#39;, nodata = -9999)</span></span></code></pre></div>
+</div>
+<div id="9e8c9a2c-7490-4992-a30d-b9ccacd136c7" class="cell markdown">
+<h1 id="remarks">Remarks</h1>
+<p>As we can see in the plots above, the results are not perfect.
+However, this can be related to the fact that we only used a small
+subset of the UAV and the Sentinel-2 image. In addition, we didn't
+upscale the extracted spectra to the Sentinel-2 resolution, which could
+also affect the outcome. Furthermore, we only extracted 3 endmember from
+the image, but as we can see, there In a next step, it would be nice to
+go further and extract more than 3 endmember. This was yet not possible
+because than the abundance mapper needs some adjustments to allow more
+unknowns than equations in the LSMA model.</p>
+</div>
+</body>
+</html>

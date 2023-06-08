@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>ePortfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="shortcut icon" href="images/sat.png">
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="index.html" class="image avatar"><img src ="images/back.png" alt="back"/></a>
+					<div class="image avatar"><img src ="images/avatar.JPG" alt="Kiarash"/></div>
+					<h1><strong>KIARASH POOLADSAZ</strong><br />
+					<a href="https://master-cde.eu/">Copernicus Master in Digital Earth</a><br />
+					Paris Lodron University of Salzburg<br>
+					Palacky University Olomouc</br></h1>
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section id="one">
+						<header class="major">
+							<h1>Applying change detection analysis using normalised burnt ratio (NBR) with Google Earth Engine Code Editor.</h1>
+							<h2>Digital Earth: Big Earth Data Concepts</h2>
+						</header>
+						<p>The course provided the opportunity to get familiar with different topics related to satellite data, principles, tools and engines, data cubes, and so on. It motivated me personally to get in touch with Google Earth Engine, access images, filter based on desired dates, process the images, analyze based on the desired topic and extract valuable information out of it.<br>
+							Therefore, this practice focused on Dixie Wildfire, which occured in July 2021. The goal was to classify the areas which are more likely to be burnt using Normalized Burnt Ration (NBR) index. The value was calculated by subtracting the NBR value of post-fire dates from pre-fire dates. The procedure was applied in Earth Engine Code Editor with the tutorial from UN-Spider.</br></p>
+						
+							<img class="image fit thumb" src="images/dixifire.gif" alt="gee"/>
+						
+						 	<p>The analysis procedure covers the following steps:<br>
+								- Defining the Area of Interest (AOI) and the time periods before and after the wildfire;</br>
+								- Selecting the Landsat 8 satellite imagery (LANDSAT/LC08/C01/T1_SR) for analysis;<br>
+						 		- Filtering the imagery based on the specified time periods and AOI;</br>
+								- Applying cloud masking to remove clouds and other unwanted pixels from the images;<br>
+								- Mosaicing and clipping the pre-fire and post-fire images to the study area;</br>
+								- Calculating the Normalized Burn Ratio (NBR) for both pre-fire and post-fire images;<br>
+								- Computing the difference (dNBR) between pre-fire and post-fire NBR images and scale it to USGS standards;</br>
+								- Displaying the pre-fire and post-fire NBR images, as well as the dNBR image in grayscale and classified forms;<br>
+								- Calculating the burned area statistics by counting the pixels in each severity class and calculating the area in hectares and percentage;</br>
+								- Adding a legend to the map indicating the different severity classes.
+							</p>
+							<a href="images/dixie.png" class="image fit thumb"><img src="images/dixie.png" alt="" /></a>
+							<p>However, it's important to note that this process can also detect changes in the environment that are not related to wildfires. For instance, it can identify changes in natural vegetation, deforestation, and other alterations to the land cover. To ensure reliant results, certain steps are taken to eliminate the effects of snow, clouds, and their shadows, consider NDVI changes, and apply the analysis using infrared band or other types of data such as radar. The image below show the extent of the burnt area, related to 7 August 2021.</p>
+							<a href="https://goldrushcam.com/sierrasuntimes/index.php/news/fire-news/31914-california-dixie-fire-public-information-map-and-infrared-map-for-saturday-august-7-2021-interpreted-acreage-446-723" target="_blank" class="image fit thumb"><img src="images/dixieoverwatch.jpg" alt="dixie fire"></a>
+						
+							
+					</section>
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<p></br></br></br></p>
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/kiarash-pooladsaz/" class="icon brands fa-linkedin" target="_blank"><span class="label">Linked-in</span></a></li>
+						<li><a href="https://github.com/kiapooladsaz/" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="mailto: kiarashpooladsaz@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<div class="support">
+						<a href="https://www.master-cde.eu/" target="_blank" class="logo"><img src="images/logos.png" alt="logos" />
+							<a href="https://www.master-cde.eu/" target="_blank" class="logo"><img src="images/logos 2.png" alt="logos" />
+					</div>
+					<div class="copyright">
+						<p>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></p>
+					</div>
+					
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
