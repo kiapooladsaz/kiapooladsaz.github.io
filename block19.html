@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>ePortfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="shortcut icon" href="images/sat.png">
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="cat03.html" class="image avatar"><img src ="images/back.png" alt="back"/></a>
+					<div class="image avatar"><img src ="images/avatar.JPG" alt="Kiarash"/></div>
+					<h1><strong>KIARASH POOLADSAZ</strong><br />
+					<a href="https://master-cde.eu/">Copernicus Master in Digital Earth</a><br />
+					Paris Lodron University of Salzburg<br>
+					Palacky University Olomouc</br></h1>
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section id="one">
+						<header class="major">
+							<h1>Integrating nighttime light data, population distribution, and land surface temperature: comprehensive approach to visualise Human Settlement Patterns in Prague and Central Bohemian regions.</h1>
+							<h2>Nighttime Light & Urban Heat Island</h2>
+						</header>
+						<p>Understanding the dynamics of human settlements, urbanization, and environmental conditions is crucial for informed decision-making and sustainable development. Combining night light data from VIIRS, population distribution, and land surface temperature helps to provide a comprehensive approach to reach valuable insights regarding urbanization, the urban heat island effect, socioeconomic patterns, and environmental monitoring. This practice attempted to process the mentioned data and visualize their relationship, shedding light on the complex interplay between human activities and the surrounding environment.</p>
+						<p><br>Night light data is commonly collected using sensors onboard satellites, such as the Visible Infrared Imaging Radiometer Suite (VIIRS). These sensors detect and measure the radiance or brightness of light emitted from cities, towns, and other populated areas at night. The VIIRS sensor is particularly renowned for its ability to capture and quantify low-light emissions, making it an essential tool for studying urbanization and monitoring changes over time. The figure below shows the average radiance emission of night time light data in Prague and Central Bohemian regions between 2014 and 2022.</br></p>
+						<img class="image fit thumb" src="images/ntl1.gif" alt="ntl">
+                        <p>Night light data is closely correlated with population density. By calibrating night light measurements with population data, it is possible to combine the population distribution with night light data to assess the sparse or rapidly changing populations. Otherwise, the emitted light could be related to industrial sites and complex sport facilities such as stadium. Therefore, correlating such data with land-use maps is essential to categorise the emitted light regarding a specific land cover.</p>
+						<img class="image fit thumb" src="images/ntl2.gif" alt="ntl">
+                        <p>Urban Heat Island is a trending topic in the recent years. It refers to the phenomenon where urban areas experience higher temperatures compared to surrounding rural areas. Difference in temperature has to do with changes in radiative and thermal properties of impervious surfaces. Temperatures vary within cities due to the spatial distribution of water, soil, vegetation, and impervious surfaces. Albedo and infrastrucure, reduced vegetation in urban areas, urban density, weather conditions, and the geography of the area influence on the land surface temperature.</p>						
+                        <img class="image fit thumb" src="images/ntl3.gif" alt="ntl">
+                        <p>Land surface temperature was calculated using Landsat 8 imagery. It begins by selecting the thermal band (Band 10) from the Landsat 8 image and then converting The values of the thermal band to brightness temperature. Next,  the fractional vegetation was calculated by analyzing the normalised difference vegetation index. It was used to determine the emissivity of the land surface. Finally, using the brightness temperature and emissivity values, the LST was computed. This approach provides insights into the thermal characteristics of the land surface, which are valuable for various applications such as studying urban heat islands, assessing environmental impacts, and informing urban planning and climate change studies.</p>
+                        <img class="image fit thumb" src="images/ntl4.png" alt="ntl">
+                    </section>
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<p></br></br></br></p>
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/kiarash-pooladsaz/" class="icon brands fa-linkedin" target="_blank"><span class="label">Linked-in</span></a></li>
+						<li><a href="https://github.com/kiapooladsaz/" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="mailto: kiarashpooladsaz@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<div class="support">
+						<a href="https://www.master-cde.eu/" target="_blank" class="logo"><img src="images/logos.png" alt="logos" />
+							<a href="https://www.master-cde.eu/" target="_blank" class="logo"><img src="images/logos 2.png" alt="logos" />
+					</div>
+					<div class="copyright">
+						<p>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></p>
+					</div>
+					
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
